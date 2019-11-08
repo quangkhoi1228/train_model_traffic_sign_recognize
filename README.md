@@ -20,6 +20,13 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
 	<li>pillow 6.2.1</li>
 	<li>keras 2.2.4</li>
 </ul>
+<b>Chuẩn bị input:</b><br>
+<ol class="n">
+  <li>Tải bộ ảnh input <a>tại đây</a></li>
+  <li>Copy file train.zip vào trong thư mục input</li>
+  <li>Giải nén</li>
+</ol>
+
 <h2>Run project:</h2>
 Chạy Jupiter NoteBook với start folder là thư mục chứa Project train model
 <pre>jupyter notebook --notebook-dir=ParentProjectDir/trainmodeltrafficsignrecognize/</pre>
