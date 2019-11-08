@@ -21,5 +21,11 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
 	<li>keras 2.2.4</li>
 </ul>
 <h2>Run project:</h2>
-Chạy Jupiter NoteBook
-<pre>jupyter notebook --notebook-dir=/ospath/  </pre>
+Chạy Jupiter NoteBook với start folder là thư mục chứa Project train model
+<pre>jupyter notebook --notebook-dir=ParentProjectDir/trainmodeltrafficsignrecognize/</pre>
+Chọn thư mục main trong list
+<img src="https://github.com/quangkhoiuit98/trainmodeltrafficsignrecognize/blob/master/static/image/guide1.png">
+Chọn file main.ipynb
+<img src="https://github.com/quangkhoiuit98/trainmodeltrafficsignrecognize/blob/master/static/image/guide2.png">
+Sau khi chạy file main.ipynb chúng ta sẽ được file model.h5 trong thư mục model
+<img src="https://github.com/quangkhoiuit98/trainmodeltrafficsignrecognize/blob/master/static/image/guide3.png">
