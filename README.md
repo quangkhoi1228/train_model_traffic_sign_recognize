@@ -27,6 +27,9 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
   <li>Giải nén</li>
 </ol>
 
+<br>
+<p>Source code thao khảo bài viết tại link: <a href="https://viblo.asia/p/nhan-dien-bien-bao-giao-thong-gAm5yWQXZdb">Nhận diện biển báo giao thông</a></p>
+
 <h2>Run project:</h2>
 Chạy Jupiter NoteBook với start folder là thư mục chứa Project train model
 <pre>jupyter notebook --notebook-dir=ParentProjectDir/trainmodeltrafficsignrecognize/</pre>
