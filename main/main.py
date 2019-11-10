@@ -9,19 +9,20 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
 import matplotlib.pyplot as plt
 
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
 # Reading the input images and putting them into a numpy array
-data = []
-labels = []
 
-currentPath = os.getcwd()
 
 inputDirPath = currentPath + '/input/'
 modelDirPath = currentPath + '/model/'
 modelName = 'model'
+epochs = 10
 
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+data = []
+labels = []
 
+currentPath = os.getcwd()
 height = 30
 width = 30
 channels = 3
@@ -89,7 +90,6 @@ model.compile(
 )
 
 # using ten epochs for the training and saving the accuracy for each epoch
-epochs = 2
 history = model.fit(X_train, y_train, batch_size=32, epochs=epochs,
                     validation_data=(X_val, y_val))
 
