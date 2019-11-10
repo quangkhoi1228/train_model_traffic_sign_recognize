@@ -19,6 +19,7 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
 	<li>scikit-learn 0.21.3</li>
 	<li>pillow 6.2.1</li>
 </ul>
+<i>Lưu ý: phiên bản tensorflow 2.0.0 đã chứa cả packages keras, nên khi cài cả hai có thể gây lỗi "dead kernel ..."</i>
 <b>Chuẩn bị input:</b><br>
 <ol class="n">
   <li>Tải bộ ảnh input <a href="https://drive.google.com/drive/folders/1VrYO0eTlz4ZDvpiDd8qPiJjFIethaOU1?usp=sharing">tại đây</a></li>
