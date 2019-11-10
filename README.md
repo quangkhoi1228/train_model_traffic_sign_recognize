@@ -15,10 +15,9 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
     <li>matplotlib 3.1.1</li>
 	<li>tensorflow 2.0.0</li>
 	<li>opencv 3.4.2</li>
-    <li>scikit-image 0.15.0</li>
+    	<li>scikit-image 0.15.0</li>
 	<li>scikit-learn 0.21.3</li>
 	<li>pillow 6.2.1</li>
-	<li>keras 2.2.4</li>
 </ul>
 <b>Chuẩn bị input:</b><br>
 <ol class="n">
