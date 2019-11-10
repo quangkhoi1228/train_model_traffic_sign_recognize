@@ -8,6 +8,8 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
 <br>
 <b>Packages:</b><br>
 <i>*Khuyến khích sử dụng Anaconda 3 để cài tất cả packages</i><br>
+
+
 <ul>
     <li>notebook 6.0.1</li>
     <li>pandas 0.25.2</li>
@@ -15,15 +17,16 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
     <li>matplotlib 3.1.1</li>
 	<li>tensorflow 2.0.0</li>
 	<li>opencv 3.4.2</li>
-    <li>scikit-image 0.15.0</li>
+    	<li>scikit-image 0.15.0</li>
 	<li>scikit-learn 0.21.3</li>
 	<li>pillow 6.2.1</li>
-	<li>keras 2.2.4</li>
 </ul>
+Lưu ý: phiên bản tensorflow 2.0.0 đã chứa cả packages keras, nên khi cài cả hai có thể gây lỗi "dead kernel ..."<br>
+
 <b>Chuẩn bị input:</b><br>
 <ol class="n">
   <li>Tải bộ ảnh input <a href="https://drive.google.com/drive/folders/1VrYO0eTlz4ZDvpiDd8qPiJjFIethaOU1?usp=sharing">tại đây</a></li>
-  <li>Copy file train.zip vào trong thư mục input</li>
+  <li>Copy file Train.zip vào trong thư mục input</li>
   <li>Giải nén</li>
 </ol>
 
