@@ -12,21 +12,23 @@ import matplotlib.pyplot as plt
 
 # Reading the input images and putting them into a numpy array
 
+currentPath = os.getcwd()
 
 inputDirPath = currentPath + '/input/'
 modelDirPath = currentPath + '/model/'
 modelName = 'model'
 epochs = 10
+classes = 16
 
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 data = []
 labels = []
 
-currentPath = os.getcwd()
 height = 30
 width = 30
 channels = 3
-classes = 16
+
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+
 n_inputs = height * width*channels
 
 for i in range(classes):

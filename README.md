@@ -8,21 +8,16 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
 <br>
 <b>Packages:</b><br>
 <i>*Khuyến khích sử dụng Anaconda 3 để cài tất cả packages</i><br>
-
-
 <ul>
-    <li>notebook 6.0.1</li>
     <li>pandas 0.25.2</li>
     <li>numpy 1.17.2</li>
     <li>matplotlib 3.1.1</li>
-	<li>tensorflow 2.0.0</li>
-	<li>opencv 3.4.2</li>
-    	<li>scikit-image 0.15.0</li>
-	<li>scikit-learn 0.21.3</li>
-	<li>pillow 6.2.1</li>
+	  <li>tensorflow 2.0.0</li>
+	  <li>opencv 3.4.2</li>
+    <li>scikit-image 0.15.0</li>
+  	<li>scikit-learn 0.21.3</li>
+  	<li>pillow 6.2.1</li>
 </ul>
-Lưu ý: phiên bản tensorflow 2.0.0 đã chứa cả packages keras, nên khi cài cả hai có thể gây lỗi "dead kernel ..."<br>
-
 <b>Chuẩn bị input:</b><br>
 <ol class="n">
   <li>Tải bộ ảnh input <a href="https://drive.google.com/drive/folders/1VrYO0eTlz4ZDvpiDd8qPiJjFIethaOU1?usp=sharing">tại đây</a></li>
@@ -30,15 +25,28 @@ Lưu ý: phiên bản tensorflow 2.0.0 đã chứa cả packages keras, nên khi
   <li>Giải nén</li>
 </ol>
 
-<br>
-<p>Source code tham khảo bài viết tại link: <a href="https://viblo.asia/p/nhan-dien-bien-bao-giao-thong-gAm5yWQXZdb">Nhận diện biển báo giao thông</a></p>
-
 <h2>Run project:</h2>
-Chạy Jupiter NoteBook với start folder là thư mục chứa Project train model
-<pre>jupyter notebook --notebook-dir=ParentProjectDir/trainmodeltrafficsignrecognize/</pre>
-Chọn thư mục main trong list
-<img src="https://github.com/quangkhoiuit98/trainmodeltrafficsignrecognize/blob/master/static/image/guide1.png">
-Chọn file main.ipynb
-<img src="https://github.com/quangkhoiuit98/trainmodeltrafficsignrecognize/blob/master/static/image/guide2.png">
-Sau khi chạy file main.ipynb chúng ta sẽ được file model.h5 trong thư mục model
+Activate biến môi trường Anaconda 3
+<pre>source ospath/anaconda3/anaconda3/bin/activate</pre>
+Activate môi trường chứa các packages cần thiết
+<pre>conda activate opencv</pre>
+Di chuyển đến thư mục chứa project
+<pre>cd parentProjectPath/trainmodeltrafficsignrecognize </pre>
+Chạy file main.py trong thư mục main
+<pre>python main/main.py</pre>
+Sau khi chạy xong chúng ta sẽ được file model.h5 trong thư mục model
 <img src="https://github.com/quangkhoiuit98/trainmodeltrafficsignrecognize/blob/master/static/image/guide3.png">
+
+<h2>Lưu ý</h2>
+<ul>
+    <li>Source code tham khảo bài viết tại link: <a href="https://viblo.asia/p/nhan-dien-bien-bao-giao-thong-gAm5yWQXZdb">Nhận diện biển báo giao thông</a></li>
+    <li><p>Một số cấu hình trong file main.py</p>
+        <ul>
+          <li>inputDirPath : Đường dẫn đến thư mục chứa input</li>
+          <li>modelDirPath : Đường dẫn đến thư mục lưu model</li>
+          <li>modelName : Tên model sẽ lưu</li>
+          <li>epochs : Số lần train model</li>
+          <li>classes : Số lớp input = Số tập ảnh train = Số thư mục trong thư mục Train</li>
+        </ul>
+    </li>
+</ul>
