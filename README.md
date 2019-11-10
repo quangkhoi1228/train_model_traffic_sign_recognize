@@ -22,7 +22,7 @@ Train model Nhận diện biển báo giao thông sử dụng deep learning
 <b>Chuẩn bị input:</b><br>
 <ol class="n">
   <li>Tải bộ ảnh input <a href="https://drive.google.com/drive/folders/1VrYO0eTlz4ZDvpiDd8qPiJjFIethaOU1?usp=sharing">tại đây</a></li>
-  <li>Copy file train.zip vào trong thư mục input</li>
+  <li>Copy file Train.zip vào trong thư mục input</li>
   <li>Giải nén</li>
 </ol>
 
