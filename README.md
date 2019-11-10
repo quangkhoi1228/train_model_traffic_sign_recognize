@@ -34,7 +34,7 @@ Di chuyển đến thư mục chứa project
 <pre>cd parentProjectPath/trainmodeltrafficsignrecognize </pre>
 Chạy file main.py trong thư mục main
 <pre>python main/main.py</pre>
-Sau khi chạy xong chúng ta sẽ được file model.h5 trong thư mục model
+Sau khi chạy xong chúng ta sẽ được file model.h5 trong thư mục model<br>
 <img src="https://github.com/quangkhoiuit98/trainmodeltrafficsignrecognize/blob/master/static/image/guide3.png">
 
 <h2>Lưu ý</h2>
