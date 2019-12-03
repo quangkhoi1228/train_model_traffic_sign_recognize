@@ -33,7 +33,7 @@ Activate biến môi trường Anaconda 3
 Activate môi trường chứa các packages cần thiết
 <pre>conda activate opencv</pre>
 Di chuyển đến thư mục chứa project
-<pre>cd parentProjectPath/trainmodeltrafficsignrecognize </pre>
+<pre>cd parentProjectPath/train_model_traffic_sign_recognize-master </pre>
 Chạy file main.py trong thư mục main
 <pre>python main/main.py</pre>
 Sau khi chạy xong chúng ta sẽ được file model.h5 trong thư mục model
